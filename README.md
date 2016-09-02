@@ -7,7 +7,9 @@
               增加依赖 compile 'com.github.xuanu:Android-View-Status:0.0.1'
  
 #2、已有方法
-`其中View为自定义view，OnClickListener自定义点击 回调`
+`其中View为自定义view，OnClickListener自定义点击回调`  
+`自定义View,只会显示第一次传入的View,第二次可以不传入，默认是第一次传入的值`  
+
 ```
 showNoNetworkView()//显示没网
 showNoNetworkView(View)
