@@ -29,5 +29,6 @@ showNoDataView(View)
 showNoDataView(OnClickListener)
 showNoDataView(View,OnClickListener)
 ```  
- #可能存在的问题
+
+ #可能存在的问题  
    1、布局实现原理是将原来的子控件隐藏，添加一个显示布局。如果是linearlayout，并且子控件不止一个，布局可能会不好看。
